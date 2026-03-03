@@ -92,7 +92,7 @@
 
 ## 4. 结论
 
-Feature-level SMOTE 为处理高重叠、不平衡时间序列分类问题提供了一种方案。其关键贡献在于指出了在数据增强前进行特征空间优化的必要性。通过结合对比学习与传统过采样技术，该方法能够显著提升工业设备在小样本故障条件下的诊断能力。
+Feature-level SMOTE 为处理高重叠、不平衡时间序列分类问题提供了一种方案。其关键贡献在于指出了在数据增强前进行特征空间优化的必要性。通过结合对比学习与传统过采样技术，该方法能够提升工业设备在小样本故障条件下的诊断能力。
 
 ## 5. 文献来源
 **Paper Title:** Feature-level SMOTE: Augmenting fault samples in learnable feature space for imbalanced fault diagnosis of gas turbines
