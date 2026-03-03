@@ -15,9 +15,9 @@
 
 1. [背景](#1-背景)
 2. [方法论：Feature-level SMOTE](#2-方法论feature-level-smote)
-   - [空间映射 (Space Mapping)](#21-空间映射-space-mapping)
-   - [特征级数据增强 (Feature-level Data Augmentation)](#22-特征级数据增强-feature-level-data-augmentation)
-   - [故障分类](#23-故障分类)
+   - 2.1 [空间映射 (Space Mapping)](#21-空间映射-space-mapping)
+   - 2.2 [特征级数据增强 (Feature-level Data Augmentation)](#22-特征级数据增强-feature-level-data-augmentation)
+   - 2.3 [故障分类](#23-故障分类)
 3. [实验验证](#3-实验验证)
 4. [结论](#4-结论)
 5. [文献来源](#5-文献来源)
