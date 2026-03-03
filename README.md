@@ -35,11 +35,21 @@
 
 针对上述问题，论文提出了一种名为 **Feature-level SMOTE** 的框架。该方法的核心思想是：**先将数据映射到一个类间分离度更高的特征空间，再在该空间内进行数据增强。**
 
+<div align="center">
+  <img width="70%" src="https://github.com/user-attachments/assets/15b46f8f-5b6a-409b-baaa-1c8bc9bf8f6d" />
+  <p><em>图1 (a)原始空间样本分布 (b)原始空间数据增强后 (c)DSMHSA学习后的特征空间样本分布 (d)特征空间数据增强后 </em></p>
+</div>
+
 ## 2. 方法论：Feature-level SMOTE
 
 该框架主要包含三个步骤：空间映射、特征级数据增强、故障分类。
 
 ### 2.1 空间映射 (Space Mapping)
+
+<div align="center">
+  <img width="70%" src="https://github.com/user-attachments/assets/0930b017-d250-4149-a952-98fcc3ec5933" />
+  <p><em>图2 多头自注意力机制 (MHSANet) 的内部架构示意图 </em></p>
+</div>
 
 为了解决类间重叠问题，首先需要构建一个易于区分不同类别的特征空间。论文采用了 **深度孪生多头自注意力网络 (DSMHSA)** 作为特征提取器。
 
@@ -63,6 +73,11 @@
 最后，将增强后的平衡特征数据集输入到分类器中。论文使用了简单的 Softmax 分类器 (SMC) 进行训练和测试，完成最终的故障诊断任务。
 
 ## 3. 实验验证
+
+<div align="center">
+  <img width="70%" src="https://github.com/user-attachments/assets/1001bba4-ffe1-4634-ac33-19a9783c7cb5" />
+  <p><em>图3 (a)燃气轮机性能数据采集流程 (b)基于滑动窗口的样本构建方法 </em></p>
+</div>
 
 为了验证方法的有效性，在两个数据集上进行了测试：
 
